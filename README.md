@@ -1,7 +1,3 @@
-![Language](https://img.shields.io/badge/language-C%2B%2B17-blue)
-![Environment](https://img.shields.io/badge/environment-VS%20Code%20%2F%20OnlineGDB-orange)
-![Testing](https://img.shields.io/badge/tests-passing-brightgreen)
-![Data Formats](https://img.shields.io/badge/data-CSV%20%2F%20JSON-blueviolet)
 # Дослідження
 * **Напрям:** Звʼязні списки та інші лінійні структури даних
 * **Базові теми:** Циклічний список, Список з sentinel nodes
