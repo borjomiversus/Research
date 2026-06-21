@@ -308,5 +308,4 @@ public:
 Управління задачами в рамках дослідження здійснювалося за методологією Kanban:
 
 * **Live-дошка:** [Посилання на Trello-дошку проєкту](https://trello.com/invite/b/6a36c5b8b778f53705e24a0e/ATTI08fed431280fdf3bf8b548732b9c7ecbF4F833E5/%D0%B4%D0%BE%D1%81%D0%BB%D1%96%D0%B4%D0%B6%D0%B5%D0%BD%D0%BD%D1%8F)
-* **Дошка Trello у форматі JSON (`management/trello.json`).
 ![Дошка Trello](time%20management%20%28trello%29/trellophoto.png)
