@@ -222,7 +222,7 @@ public:
 
 ## 6. Аналіз роботи з ШІ
 
-Під час роботи над дослідженням інструменти ШІ використовувалися для структурування інформації, оформлення звіту, візуалізації, написання коду, бенчмаркінгуу.
+Під час роботи над дослідженням інструменти ШІ використовувалися для структурування інформації, оформлення звіту, візуалізації, написання коду, бенчмаркінгу.
 Чат з Gemini: https://share.gemini.google/MKRRPzOEZh3g
 
 * **Виявлені помилки ШІ:** Під час первинного запиту щодо реалізації XOR-списку, ШІ (Gemini) згенерував синтаксично некоректний код, намагаючись виконати операцію `tail->npx ^ newNode` безпосередньо над типами вказівників `XORNode*`. Ця помилка була виявлена під час компіляції.
@@ -258,7 +258,7 @@ public:
   * Структура list_head має лише два вказівники (next та prev) і жодних корисних даних. Вона вбудовується безпосередньо всередину інших структур ядра (наприклад, процесів або драйверів).
   * Щоб отримати самі дані, розробники ядра використовують геніальний C-макрос container_of(), який за допомогою адресної арифметики вираховує початок батьківської структури. Це дозволяє ядру Linux об'єднувати абсолютно різні об'єкти в одну чергу без виділення додаткової пам'яті під вузли списку, що робить алгоритм екстремально швидким і економним.
 
-  * CodeSignal: [Introduction to std::list in C++](https://codesignal.com/learn/courses/fundamental-data-structures-linked-lists-in-cpp/lessons/introduction-to-stdlist-in-cpp)
+* CodeSignal: [Introduction to std::list in C++](https://codesignal.com/learn/courses/fundamental-data-structures-linked-lists-in-cpp/lessons/introduction-to-stdlist-in-cpp)
 * Дискусія на Reddit (r/cpp): [Does anybody use std::list?](https://www.reddit.com/r/cpp/comments/jf3dwo/does_anybody_use_stdlist/)
 * Medium (Boutnaru): [The Linux Kernel Data Structures Journey: struct list_head](https://medium.com/@boutnaru/the-linux-kernel-data-strctures-journey-struct-list-head-87fa91a5ce1c)
 * Dev.to: [Linked List in the Linux Kernel](https://dev.to/sauravshah31/linked-list-in-the-linux-kernel-46cj)
